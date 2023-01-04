@@ -29,6 +29,7 @@ int main() {
         case 4:
             c = a / b ;
             printf("%.2f" ,c);
+            printf("%.2f" ,c);
             break;
     }
     return 0;
