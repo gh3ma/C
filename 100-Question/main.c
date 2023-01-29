@@ -193,30 +193,14 @@
    //(row index 4). Then print the student (Id and average) whose get the highest average.Initialize the 2- dimensional
    //
 
-    int str1 (char str2[]);
-    int fonk(char c, char p[], int y[]);
-
-int main() {
-            char str1[80],chr[80];
-            int n, i, x, ctr[80];
-    printf("Enter u studenr number:");
-    scanf("%s" ,str1);
-    n = str1 (str1);
-    chr[0] = str1[0];
-    ctr[0] = 1;
-    x = 0;
-    for (int i = 0; i < n; ++i) {
-
-        if (!fonk(str1[i], chr, x, ctr)){
-            x++;
-            ctr[x] = str1[i];
-            ctr[x] = 1 ;
-        }
-    }
-    for (int i = 0; i <= x ; i++)
-        printf("%c\t%d\n" , chr[i] ,ctr[i]);
-
-
-
+    int fun(int,int);
+   int  main() {
+       printf("%d", fun(10,40));
+       //scanf("%d", &fun(x,y));
     return 0;
+    
     }
+    int fun(int x, int y){
+        return (x >= 20 && x <= 50 || y >= 20 && y <= 50) ;
+
+   }
