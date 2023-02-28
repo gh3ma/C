@@ -193,14 +193,40 @@
    //(row index 4). Then print the student (Id and average) whose get the highest average.Initialize the 2- dimensional
    //
 
-    int fun(int,int);
+    /*int fun(int,int);
    int  main() {
        printf("%d", fun(10,40));
        //scanf("%d", &fun(x,y));
     return 0;
-    
+
     }
     int fun(int x, int y){
         return (x >= 20 && x <= 50 || y >= 20 && y <= 50) ;
 
-   }
+   }*/
+
+    int  main() {
+
+        char a[100] = "mohammad";
+        int counter = 0;
+
+
+        for (int i = 0; i <50 ; ++i) {
+            //scanf("%s", &a[i]);
+            if (a[i] == 'a') {
+                counter++;
+            }
+        }
+        if (counter == 0) {
+            printf("\nthere is not");
+
+        } else printf("\n%d", counter);
+
+
+
+
+
+
+
+
+    }
